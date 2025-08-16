@@ -1,0 +1,164 @@
+
+{
+  "contactInfo": [
+    {
+      "type": "Email",
+      "icon": "fa-solid fa-envelope",
+      "value": "maddurisai.."
+    },
+    {
+      "type": "Phone",
+      "icon": "fa-solid fa-phone",
+      "value": "6352186044"
+    },
+    {
+      "type": "Birthday",
+      "icon": "fa-solid fa-cake-candles",
+      "value": "24/07/2003"
+    },
+    {
+      "type": "Location",
+      "icon": "fa-solid fa-location-dot",
+      "value": "Surat,Gujarat"
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "icon": "fa-brands fa-linkedin",
+      "url": "https://linkedin.com/in/maddurisairam"
+    },
+    {
+      "platform": "GitHub",
+      "icon": "fa-brands fa-github",
+      "url": "https://github.com/MadduriSairam"
+    },
+    {
+      "platform": "Facebook",
+      "icon": "fa-brands fa-facebook",
+      "url": "https://www.facebook.com/madduri.sairam"
+    }
+  ],
+  
+  "whatiamdoingboxes": [
+    {
+      "type": "image",
+      "icon": "fa-solid fa-laptop",
+      "heading": "Web design",
+      "para": "The most modern and high-quality design made at a professional level."
+    },
+    {
+      "type": "image",
+      "icon": "fa-solid fa-terminal",
+      "heading": "Web development",
+      "para": "High-quality development of sites at the professional level."
+    },
+    {
+      "type": "icon",
+      "icon": "fa-brands fa-figma",
+      "heading": "Figma",
+      "para": "Creates visually appealing designs and ensures the website or app is easy and enjoyable for users to interact with."
+    },
+    {
+      "type": "icon",
+      "icon": "fa-solid fa-code",
+      "heading": "React & JavaScript Developer",
+      "para": "Builds dynamic, fast, and interactive web applications using React and JavaScript."
+    }
+  ],
+  "EducationDetails":[
+    {
+        "name":"Sarvajanik College Of Engineering And Technology",
+        "year":"2024-2026(Pursing)",
+        "course":"MCA",
+        "cgpa":7.4
+        
+    },
+    {
+        "name":"Bhagwan Mahvair College Of Computer Application",
+        "year":"2021-2024",
+        "course":"BCA",
+        "cgpa":8.09
+        
+    },
+    {
+        "name":"Telangana Model Junior College",
+        "year":"2019-2021",
+        "course":"12th",
+        "cgpa":"444/100"
+        
+    },
+    {
+        "name":"Fathima English Medium High School",
+        "year":"2019",
+        "course":"10th",
+        "cgpa":8.2
+        
+    }
+  ],
+  "myskills":[
+    {
+        "icon":"fa-brands fa-html5",
+        "language":"HTML"
+    },
+    {
+        "icon":"fa-brands fa-css3",
+        "language":"CSS"
+    },
+    {
+        "icon":"fa-solid fa-file-code",
+        "language":"TALWIND"
+    },
+    {
+        "icon":"fa-solid fa-code",
+        "language":"JAVASCRIPT"
+    },
+    {
+        "icon":"fa-brands fa-react",
+        "language":"REACT.JS"
+    },
+    {
+        "icon":"fa-brands fa-figma",
+        "language":"FIGMA"
+    },
+    {
+        "icon":"fa-solid fa-c",
+        "language":"C"
+    }
+  ],
+  "basichomepages":[
+    {
+        "icon":"fa-solid fa-utensils",
+        "projectTitle":"Restaurant",
+        "url":"https://maddurisairam.github.io/Restaurant/"
+        
+    },
+    {
+        "icon":"fa-brands fa-yoast",
+        "projectTitle":"Yoga",
+        "url":"https://maddurisairam.github.io/yoga/"
+    },
+    {
+        "icon":"fa-solid fa-dog",
+        "projectTitle":"Veterinary",
+        "url":"https://maddurisairam.github.io/Veterinary/"
+    },
+    {
+        "icon":"fa-solid fa-school",
+        "projectTitle":"School",
+        "url":"https://maddurisairam.github.io/school/"
+    },
+    {
+        "icon":"fa-solid fa-cart-shopping ",
+        "projectTitle":"E-commerce",
+        "url":"https://maddurisairam.github.io/ecommerce/"
+    },
+    {
+        "icon":"fa-solid fa-face-smile",
+        "projectTitle":"Nice Meal",
+        "url":"https://maddurisairam.github.io/nice-meal/"
+    }
+  ]
+  
+
+}
