@@ -1,7 +1,7 @@
 import protofolio from "../apis/protofolio.json";
 export function ResumeEducationDetails() {
   return (
-    <div className="px-[65px] flex flex-col gap-3">
+    <div className="px-[65px] flex flex-col gap-3 ">
       {protofolio.EducationDetails.map((EducationDetailsmydetails) => {
         return (
           <div className="">

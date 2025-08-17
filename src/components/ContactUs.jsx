@@ -1,5 +1,5 @@
 import { Mapcontact } from "./Mapcontact";
-
+import protofolio from "../apis/protofolio.json";
 export function ContactUs() {
   return (
     <div className=" p-6 ">
@@ -13,28 +13,27 @@ export function ContactUs() {
       </h1>
       <p className="w-[10%] bg-[#ffdb70] h-[4px] rounded-lg mt-2 "></p>
       <div className="sm:grid grid-cols-2 p-[30px] gap-9">
-        <div>
-          <input
-            type="text"
-            placeholder="Full name"
-            className="bg-[#1e1e1f] shadow-sm shadow-[#777778] sm:px-[100px] sm:py-[20px] rounded-2xl  placeholder:text-center placeholder:text-[#d6d6d6]"
-          ></input>
-        </div>
-        <div>
-          <input
-            type="email"
-            placeholder="Email address "
-            className="bg-[#1e1e1f] shadow-sm shadow-[#777778] sm:px-[100px] sm:py-[20px] rounded-2xl  placeholder:text-center placeholder:text-[#d6d6d6]"
-          ></input>
-        </div>
+        {protofolio.contactforminputs[0].inputs.map((inputsfetch, index) => {
+          return (
+            <div>
+              <input
+                type={inputsfetch}
+                placeholder={
+                  protofolio.contactforminputs[1].placeholdernames[index]
+                }
+                className="bg-[#1e1e1f] shadow-sm shadow-[#777778] sm:px-[100px] sm:py-[20px] rounded-2xl  placeholder:text-center placeholder:text-[#d6d6d6]"
+              ></input>
+            </div>
+          );
+        })}
         <div className="col-span-2">
           <textarea
             placeholder="Your Message"
-            className="bg-[#1e1e1f] shadow-sm shadow-[#777778] w-full py-[10px] px-[20px] rounded-2xl resize-none h-[60px] placeholder:text-center placeholder:text-[#d6d6d6]"
+            className="bg-[#1e1e1f] shadow-sm shadow-[#777778] sm:w-full py-[10px] px-[20px] rounded-2xl resize-none sm:h-[60px] placeholder:text-center placeholder:text-[#d6d6d6]"
           ></textarea>
         </div>
       </div>
-      <div className="flex float-end shadow-sm shadow-[#777778] p-[20px] rounded-2xl gap-3">
+      <div className="flex float-end shadow-sm shadow-[#777778] sm:p-[20px] rounded-2xl gap-3">
         <div>
           <i class="fa-solid fa-paper-plane text-[#ffdb70]"></i>
         </div>

@@ -1,10 +1,18 @@
-
 {
+  "mydetails": [
+    {
+      "my-img": "src/assets/images/my-img.png",
+      "imgid": "my-image",
+      "myname": "Sairam",
+      "myrole": "Front End Developer"
+    }
+  ],
   "contactInfo": [
     {
       "type": "Email",
       "icon": "fa-solid fa-envelope",
-      "value": "maddurisai.."
+      "value": "maddurisai..",
+      "emailtitle": "maddurisai24@gmail.com"
     },
     {
       "type": "Phone",
@@ -39,7 +47,11 @@
       "url": "https://www.facebook.com/madduri.sairam"
     }
   ],
-  
+  "navbarlinksnames": [
+    {
+      "firstlinkname": ["About", "Resume", "Project", "Contact"]
+    }
+  ],
   "whatiamdoingboxes": [
     {
       "type": "image",
@@ -66,99 +78,121 @@
       "para": "Builds dynamic, fast, and interactive web applications using React and JavaScript."
     }
   ],
-  "EducationDetails":[
+  "EducationDetails": [
     {
-        "name":"Sarvajanik College Of Engineering And Technology",
-        "year":"2024-2026(Pursing)",
-        "course":"MCA",
-        "cgpa":7.4
-        
+      "name": "Sarvajanik College Of Engineering And Technology",
+      "year": "2024-2026(Pursing)",
+      "course": "MCA",
+      "cgpa": 7.4
     },
     {
-        "name":"Bhagwan Mahvair College Of Computer Application",
-        "year":"2021-2024",
-        "course":"BCA",
-        "cgpa":8.09
-        
+      "name": "Bhagwan Mahvair College Of Computer Application",
+      "year": "2021-2024",
+      "course": "BCA",
+      "cgpa": 8.09
     },
     {
-        "name":"Telangana Model Junior College",
-        "year":"2019-2021",
-        "course":"12th",
-        "cgpa":"444/100"
-        
+      "name": "Telangana Model Junior College",
+      "year": "2019-2021",
+      "course": "12th",
+      "cgpa": "444/100"
     },
     {
-        "name":"Fathima English Medium High School",
-        "year":"2019",
-        "course":"10th",
-        "cgpa":8.2
-        
+      "name": "Fathima English Medium High School",
+      "year": "2019",
+      "course": "10th",
+      "cgpa": 8.2
     }
   ],
-  "myskills":[
+  "myskills": [
     {
-        "icon":"fa-brands fa-html5",
-        "language":"HTML"
+      "icon": "fa-brands fa-html5",
+      "language": "HTML"
     },
     {
-        "icon":"fa-brands fa-css3",
-        "language":"CSS"
+      "icon": "fa-brands fa-css3",
+      "language": "CSS"
     },
     {
-        "icon":"fa-solid fa-file-code",
-        "language":"TALWIND"
+      "icon": "fa-solid fa-file-code",
+      "language": "TALWIND"
     },
     {
-        "icon":"fa-solid fa-code",
-        "language":"JAVASCRIPT"
+      "icon": "fa-solid fa-code",
+      "language": "JAVASCRIPT"
     },
     {
-        "icon":"fa-brands fa-react",
-        "language":"REACT.JS"
+      "icon": "fa-brands fa-react",
+      "language": "REACT.JS"
     },
     {
-        "icon":"fa-brands fa-figma",
-        "language":"FIGMA"
+      "icon": "fa-brands fa-figma",
+      "language": "FIGMA"
     },
     {
-        "icon":"fa-solid fa-c",
-        "language":"C"
+      "icon": "fa-solid fa-c",
+      "language": "C"
     }
   ],
-  "basichomepages":[
+  "mainprojects": [
     {
-        "icon":"fa-solid fa-utensils",
-        "projectTitle":"Restaurant",
-        "url":"https://maddurisairam.github.io/Restaurant/"
-        
+      "projectimg1": "src/assets/images/image.png",
+      "projecttitle": "Waste Food Management System (BCA Project)",
+      "projectDescription": "A web platform to manage the donation and distribution of leftover food to orphanages through multi-user panels (Donor, Admin, Delivery, Orphanage). Enabled food posting, approval, tracking, delivery, and orphanage requests. Streamlined the entire process from donation to final delivery.",
+      "technologiesUsed": "HTML,CSS,JAVASCRIPT,PHP,SQL"
     },
     {
-        "icon":"fa-brands fa-yoast",
-        "projectTitle":"Yoga",
-        "url":"https://maddurisairam.github.io/yoga/"
-    },
-    {
-        "icon":"fa-solid fa-dog",
-        "projectTitle":"Veterinary",
-        "url":"https://maddurisairam.github.io/Veterinary/"
-    },
-    {
-        "icon":"fa-solid fa-school",
-        "projectTitle":"School",
-        "url":"https://maddurisairam.github.io/school/"
-    },
-    {
-        "icon":"fa-solid fa-cart-shopping ",
-        "projectTitle":"E-commerce",
-        "url":"https://maddurisairam.github.io/ecommerce/"
-    },
-    {
-        "icon":"fa-solid fa-face-smile",
-        "projectTitle":"Nice Meal",
-        "url":"https://maddurisairam.github.io/nice-meal/"
+      "projectimg1": "src/assets/images/projectimg2.jpeg",
+      "projecttitle": "Shoex (MCA Sem-2 Project)",
+      "projectDescription": "A responsive, user-friendly shoe store website designed to showcase products with dynamic features. Developed product listing, filtering, and category-based browsing. Created a clean UI layout for product display, detailed product info, and a shopping cart simulation.",
+      "technologiesUsed": "HTML,CSS,JAVASCRIPT,LARAVEL,MYSQL"
     }
-  ]
-  
+  ],
+  "basichomepages": [
+    {
+      "icon": "fa-solid fa-utensils",
+      "projectTitle": "Restaurant",
+      "url": "https://maddurisairam.github.io/Restaurant/"
+    },
+    {
+      "icon": "fa-brands fa-yoast",
+      "projectTitle": "Yoga",
+      "url": "https://maddurisairam.github.io/yoga/"
+    },
+    {
+      "icon": "fa-solid fa-dog",
+      "projectTitle": "Veterinary",
+      "url": "https://maddurisairam.github.io/Veterinary/"
+    },
+    {
+      "icon": "fa-solid fa-school",
+      "projectTitle": "School",
+      "url": "https://maddurisairam.github.io/school/"
+    },
+    {
+      "icon": "fa-solid fa-cart-shopping ",
+      "projectTitle": "E-commerce",
+      "url": "https://maddurisairam.github.io/ecommerce/"
+    },
+    {
+      "icon": "fa-solid fa-face-smile",
+      "projectTitle": "Nice Meal",
+      "url": "https://maddurisairam.github.io/nice-meal/"
+    }
+  ],
+  "myintro": [
+    {
+      "myintroduction": "Enthusiastic MCA student with a strong foundation in front-end development, expected to graduate in January 2026. Skilled in HTML, CSS, Tailwind CSS, JavaScript, and React.js, with hands-on experience in creating responsive web applications. Proficient in design tools like Figma and version control using GitHub, with a basic understanding of programming languages such as C, Java, and PHP. Eager to apply my skills in a front-end developer role as a fresher, bringing a passion for building user-friendly interfaces and continuously learning new technologies."
+    }
+  ],
+  "contactforminputs":[
+    {
+      "inputs":["text","email"]
+      
+    },
+    {
+      "placeholdernames":["Full Name","Email Address"]
+    }
 
+  ]
 }

@@ -4,7 +4,7 @@ export function Basichomepages() {
     <div className="sm:grid grid-cols-3 gap-9">
       {protofolio.basichomepages.map((basichomepagesmypages) => {
         return (
-          <div className="shadow-sm shadow-[#777778] p-[40px] rounded-2xl">
+          <div className="shadow-sm shadow-[#777778] p-[40px] rounded-2xl  mt-[20px] sm:mt-0">
             <div className="sm:flex gap-5 justify-evenly flex-wrap">
               <div>
                 <i

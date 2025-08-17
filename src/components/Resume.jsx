@@ -3,16 +3,18 @@ import { ResumeEducationDetails } from "./ResumeEducationDetails";
 
 export function Resume() {
   return (
-    <div className=" p-6 ">
+    <div className=" p-6 mt-[20px] sm:mt-0">
       <h1 className="text-[30px] font-bold font-sans text-[#fafafa]">Resume</h1>
       <p className="w-[10%] bg-[#ffdb70] h-[4px] rounded-lg mt-2 "></p>
 
-      <div className="flex items-center  text-[30px] ">
+      <div className="flex items-center  text-[30px] mt-[45px] sm:mt-0">
         <div>
           <i class="fa-solid fa-graduation-cap text-[#ffdb70]"></i>
         </div>
         <div>
-          <h1 className="text-[30px] font-bold p-6 font-sans text-[#fafafa]">Education</h1>
+          <h1 className="text-[30px] font-bold p-6 font-sans text-[#fafafa]">
+            Education
+          </h1>
         </div>
       </div>
       <div className="">
